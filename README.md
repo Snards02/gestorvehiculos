@@ -1,3 +1,24 @@
+##  Instalación del Proyecto
+
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tuusuario/gestorvh-app.git
+    cd gestorvh-app
+
+2. Instala las dependencias:
+    ```bash
+    flutter pub get
+
+
+3. Ejecuta el generador de MobX
+    ```bash
+    flutter pub run build_runner build --delete-conflicting-outputs
+
+4. Asegúrate de tener un emulador o dispositivo conectado, y corre la app:
+    ```bash
+    flutter run
+
+
 # gestorvh
 
 A new Flutter project.
@@ -15,19 +36,3 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-Clona el repositorio:
-
-git clone https://github.com/tuusuario/gestorvh-app.git
-cd gestorvh-app
-
-Instala las dependencias:
-
-flutter pub get
-
-
-Ejecuta el generador de MobX
-
-flutter pub run build_runner build --delete-conflicting-outputs
-
-Asegúrate de tener un emulador o dispositivo conectado, y corre la app:
-flutter run
